@@ -1,0 +1,13 @@
+//头文件
+#include <stdio.h> 
+ 
+//整型转换成字符型
+int value;
+char cover_count[20];
+sprintf(cover_count,"%d",value);
+
+
+//浮点型转换成字符型
+float value;
+char cover_count[20];
+sprintf(cover_count,"%f",value);

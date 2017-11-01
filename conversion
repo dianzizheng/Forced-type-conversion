@@ -6,8 +6,16 @@ int value;
 char cover_count[20];
 sprintf(cover_count,"%d",value);
 
-
 //浮点型转换成字符型
 float value;
 char cover_count[20];
 sprintf(cover_count,"%f",value);
+ 
+//整型转换成结构体指针
+int value;
+struct construct *con_ptr = (struct construct *)value; 
+
+//字符串转换成结构体指针
+char con[1024];
+struct construct *con_ptr = (struct construct *)con;
+
